@@ -21,8 +21,9 @@ section {
   justify-content: center;
 }
 
-section input, section select {
+section input {
   margin: 20px;
+  padding: 6px;
   border-radius: 5px;
   outline: none;
 }
@@ -103,6 +104,9 @@ p {
 @media only screen and (max-width: 600px) {
   section {
     flex-direction: column;
+  }
+  section button {
+    margin: 8px 20px;
   }
   div {
     max-width: 450px;
